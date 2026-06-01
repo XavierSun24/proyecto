@@ -36,6 +36,8 @@ int main()
         cout << "Elegiste: el modo facil "<< endl;
         cout << "A continuacion se le monstraran las preguntas y sus opciones"<< endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 1 "<< endl;
         cout<<"¿Cuál es el color que se obtiene al mezclar el azul con el amarillo?"<< endl;
         cout<< "A) Morado-> a\nB) Verde-> b\nC) Naranja-> c\nD) Café-> d\n";
@@ -61,6 +63,8 @@ int main()
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 2 "<< endl;
         cout<< "¿Cuántos días tiene un año bisiesto?"<< endl;
         cout<<"A) 365 días-> a\nB) 364 días-> b\nC) 366 días-> c\nD) 360 días-> d\n";
@@ -85,6 +89,8 @@ int main()
 
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
+        cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
         cout<<""<<endl;
         cout<< "Pregunta 3 "<< endl;
         cout<< "¿Qué tipo de animal es la ballena de acuerdo a su reproducción?"<< endl;
@@ -114,6 +120,8 @@ int main()
         cout << "Elegiste: el modo normal ";
         cout << "Acontinuacion se le monstraran las preguntas y sus opciones"<< endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 1 "<< endl;
         cout<<"¿En qué país europeo se encuentra la región de Transilvania, famosa por la leyenda de Drácula?"<< endl;
         cout<<"A) Hungría-> a\nB) Rumanía-> b\nC) Bulgaria-> c\nD) Polonia-> d\n";
@@ -139,6 +147,8 @@ int main()
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 2 "<< endl;
         cout<< "¿Cuál es el gas más abundante en la atmósfera de la Tierra?"<< endl;
         cout<<"A) Oxígeno-> a\nB) Dióxido de carbono-> b\nC) Nitrógeno-> c\nD) Hidrógeno-> d\n";
@@ -163,6 +173,8 @@ int main()
 
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
+        cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
         cout<<""<<endl;
         cout<< "Pregunta 3 "<< endl;
         cout<< "¿Qué revolucionario invento se le atribuye históricamente a Johannes Gutenberg?"<< endl;
@@ -192,6 +204,8 @@ int main()
         cout << "Elegiste: el modo dificil ";
         cout << "Acontinuacion se le monstraran las preguntas y sus opciones"<< endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 1 "<< endl;
         cout<<"¿Cuál es el único mamífero del mundo que posee la capacidad de volar activamente?"<< endl;
         cout<<"A) El murciélago-> a\nB) El ornitorrinco-> b\nC) La ardilla voladora-> c\nD) El colibrí-> d\n";
@@ -217,6 +231,8 @@ int main()
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
         cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
+        cout<<""<<endl;
         cout<< "Pregunta 2 "<< endl;
         cout<< "¿Qué filósofo de la antigua Grecia fue el maestro directo de Alejandro Magno?"<< endl;
         cout<<"A) Sócrates-> a\nB) Platón-> b\nC) Aristóteles-> c\nD) Pitágoras-> d\n";
@@ -241,6 +257,8 @@ int main()
 
         cout<<""<<endl;
         cout<<"siguiente pregunta"<<endl;
+        cout<<""<<endl;
+        cout<< "Por 100 puntos "<< endl;
         cout<<""<<endl;
         cout<< "Pregunta 3 "<< endl;
         cout<< "¿Cuál es el elemento más ligero y simple de toda la tabla periódica?"<< endl;
@@ -280,8 +298,8 @@ int main()
     if (puntosTotales >= 200) {
         cout << "FELICIDADES SHINJI, has ganado  " << puntosTotales << " puntos. Ya no tienes que jugar peruano. " << endl;
     } else {
-        cout << "Fin de la partida. Conseguiste " << puntosTotales << "conseguiste puntos." << endl;
-        cout << "No alcanzaste los 200 puntos necesarios." << endl;
+        cout << "Fin de la partida. Conseguiste " << puntosTotales << " puntos." << endl;
+        cout << "No alcanzaste los  puntos necesarios." << endl;
     }
     cout << "" << endl;
 
