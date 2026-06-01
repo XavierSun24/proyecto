@@ -276,14 +276,14 @@ int main()
 
     } while (tolower(continuar) == 's');
 
-    cout << "====================================================================================================" << endl;
+    cout << "" << endl;
     if (puntosTotales >= 200) {
         cout << "FELICIDADES SHINJI, has ganado  " << puntosTotales << " puntos. Ya no tienes que jugar peruano. " << endl;
     } else {
         cout << "Fin de la partida. Conseguiste " << puntosTotales << "conseguiste puntos." << endl;
         cout << "No alcanzaste los 200 puntos necesarios." << endl;
     }
-    cout << "====================================================================================================" << endl;
+    cout << "" << endl;
 
     return 0;
 }
